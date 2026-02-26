@@ -1,11 +1,12 @@
+
 function Projects() {
   const project = {
     name: "Music Rec App",
     description: "Aplicación fullstack con autenticación JWT, panel de administración y recomendaciones musicales por género.",
     tech: ["React","Node.js","MongoDB","Tailwind"],
-    live: "#",
-    github: "#",
-    image: "/images/music-rec.png"
+    live: "https://music-rec-api.netlify.app/",
+    github: "https://github.com/AlexNdroid/music-rec-api",
+    image: import.meta.env.BASE_URL + "images/music-rec.png"
   };
 
   return (
