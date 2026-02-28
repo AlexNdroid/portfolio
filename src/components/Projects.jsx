@@ -47,7 +47,7 @@ function Projects() {
 
             {/* Botones */}
             <div className="flex gap-4 flex-wrap">
-              <a href={project.live = "https://music-rec-api-xv1m.onrender.com"} target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition shadow-md hover:shadow-lg">
+              <a href={project.live = "https://music-rec-api.netlify.app/"} target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition shadow-md hover:shadow-lg">
                 🌐 Live Demo
               </a>
               <a href={project.github = "https://github.com/AlexNdroid/music-rec-api"} target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-gray-900 text-white rounded-xl font-semibold hover:bg-black transition shadow-md hover:shadow-lg">
