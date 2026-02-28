@@ -10,9 +10,9 @@ function Projects() {
   };
 
   return (
-    <section id="projects" className="py-28 bg-gradient-to-b from-gray-50 to-gray-100 relative">
+    <section id="projects" className="py-28 bg-linear-to-b from-gray-50 to-gray-100 relative">
       {/* Fondo decorativo */}
-      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-indigo-300 opacity-20 blur-3xl rounded-full"></div>
+      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-125 h-125 bg-indigo-300 opacity-20 blur-3xl rounded-full"></div>
 
       <div className="relative max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-20">

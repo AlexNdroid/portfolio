@@ -10,7 +10,7 @@ function Navbar() {
 
         {/* Logo */}
         <div className="text-2xl font-extrabold tracking-wide cursor-pointer select-none transition-transform duration-300 hover:scale-105">
-          <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+          <span className="bg-linear-to-b from-blue-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
             Alex
           </span>
         </div>

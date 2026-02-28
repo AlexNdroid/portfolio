@@ -1,6 +1,8 @@
+const ProfileImg = import.meta.env.BASE_URL + "images/foto-perfil.png";
+
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 text-white px-6">
+    <section className="relative min-h-screen flex items-center bg-linear-to-b from-blue-600 via-purple-600 to-indigo-700 text-white px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         {/* Texto */}
@@ -36,7 +38,7 @@ function Hero() {
         {/* Foto */}
         <div className="flex justify-center md:justify-end">
           <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg transition hover:scale-105">
-            <img src="/src/assets/foto-perfil1.png" alt="Alex" className="w-full h-full object-cover rounded-full"/>
+            <img src={ProfileImg} alt="Alex" className="w-full h-full object-cover rounded-full"/>
           </div>
         </div>
       </div>
